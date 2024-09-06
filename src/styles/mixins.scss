@@ -1,0 +1,14 @@
+$large-width: 1024px;
+$extra-large-width: 1200px;
+
+@mixin large-up {
+  @media (min-width: #{$large-width}) {
+    @content;
+  }
+}
+
+@mixin extra-large {
+  @media (min-width: #{$extra-large-width}) {
+    @content;
+  }
+}
