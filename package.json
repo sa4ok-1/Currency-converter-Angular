@@ -8,6 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
+  "homepage": "https://sa4ok-1.github.io/Currency-converter-Angular/build",
   "private": true,
   "dependencies": {
     "@angular/animations": "^14.2.0",
